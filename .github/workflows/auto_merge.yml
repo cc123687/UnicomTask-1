@@ -23,7 +23,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
     - name: Load upstream commits
       run: |
-        git pull https://github.com/srcrs/UnicomTask.git --log --no-commit
+        git pull https://github.com/cc123687/UnicomTask-1.git --log --no-commit
     - name: Apply commit changes
       run: |
         if [ -f ./.git/MERGE_MSG ]; then
